@@ -1,0 +1,304 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jersey 20", sans-serif;
+    
+}
+.header {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.navigation {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+
+.logo-responsive {
+    display: none;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.menu-area-ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+
+.menu-ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.menu-li a {
+    display: block;
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 22px;
+    
+}
+
+.menu-section-li {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    align-items: center;
+    
+
+}
+
+.menu-section-li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu-section {
+    margin-left: auto;
+}
+
+
+.link-adress {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+
+
+.banner-home {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 100%;
+}
+
+
+.body-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    
+    
+}
+
+
+.banner-home-img-container {
+    
+    width: 500px;
+   display: flex;
+   background: #ffffff;
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+
+.banner-home-img-container img {
+      
+    height: 50%;
+    
+     
+ }
+
+
+.banner-home-resume-container {
+    width: 500px;
+    
+}
+
+
+
+.bannertree {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.bannertree .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.bannertree .text .frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+    align-items: center;
+    text-align: center;
+    margin: 0 32px;
+   
+}
+
+
+
+
+
+.text .frame .title-frame {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 56px;
+    width: auto;
+    height: auto;
+}
+
+.text .frame .subtitle-frame {
+    font-weight: inherit;
+    font-size: 25px;
+   
+}
+
+.button-frap {
+    
+    border-radius: 500px;
+   
+    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px 28px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    cursor: pointer;
+    min-width: 58.8px;
+    color: #fff;
+    
+    user-select: none;
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .navigation {
+        align-items:center;
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        justify-content: center;
+        max-width: 2280px;
+        margin-left: 36px;
+        margin-right: 36px;
+        position: relative;
+    }
+
+
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 8px;
+        
+        
+        
+        
+    }
+
+    .text .frame .title-frame {
+        
+        font-size: 25px;
+       
+        
+        
+    }
+    
+    .text .frame .subtitle-frame {
+        
+        font-size: 25px;
+        
+    }
+
+    .button-frap {
+    
+        border-radius: 100px;
+        display: flex;
+        height: 10px;
+        font-size: 18px;
+        align-items: center;
+        line-height: 24px;
+        
+        
+        
+       
+        
+    
+    }
+    .bannertree .text .frame {
+        
+        gap: 0px;
+        
+        margin: 0 0px;
+       
+    }
+
+
+
+
+    
+}
+
+
+
+
+
+    
+
+
+
